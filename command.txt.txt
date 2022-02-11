@@ -1,0 +1,10 @@
+touch.ignore
+git config --global user.name bigestnoob
+git config --global user.email driverbadass1@gmail.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status #just to check
+ssh-keygen -t rsa -b 4096 -C "driverbadass1@gmail.com"
+tail ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMrtPq/nAQGrSaiT442ZquT4sdx0yLF2hNjPKmOom7vQ driverbadass1@gmail.com
+git remote add origin git@github.com:bigestnoob/Firstproject.git

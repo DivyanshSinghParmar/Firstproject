@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Supermercado+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Supermercado One', cursive;
+}
+nav ul li{
+    padding: 0 16px;
+    list-style-type: none;
+}
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    
+}
+
+
+nav ul li a:hover{
+    color: darkgoldenrod;
+    
+}
+
+
+nav ul li a{
+    list-style-type: lower-alpha;
+    color:black;
+    text-decoration: solid;
+}
+.search input{
+    
+    vertical-align: middle;
+    margin: 0 32px;
+    width: 30vw;
+    background-color: black;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    border-color: black;
+    border-style:groove;
+    margin: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 70px;
+    height: 35px;
+    font-family: 'Lobster', cursive;
+
+    background-color: black;
+    color: white;
+    border: 3px;
+    border-style: initial;
+}
+.back{
+    display: flex;
+    width:30vw;
+    overflow:visible;
+}
+
+header nav div img{
+    height: 60px;
+
+}
+header nav{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.container{
+    margin: 10px;
+    padding: 5px;
+    min-height: calc(90vh - 58px - 12vh);
+    background-color:lightgray;
+    font-family: 'Lobster', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+.card{ 
+    
+    background-color: black;
+    max-width: 90vw;
+    color: white;
+    margin: auto;
+    
+}
+.cards{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.caritem{
+    margin: 0 15px;
+    padding: 8vw;
+    display: inline flex;
+    justify-content:center;
+    flex-direction: column;
+    width: 10vw;
+}
+
+
+header{
+    border: 2px solid gray;
+    background-color:white;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-family: 'Supermercado One', cursive;
+}
